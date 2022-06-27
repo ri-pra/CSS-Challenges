@@ -1,0 +1,67 @@
+@media only screen and (min-width: 700px) {
+
+
+    .stats-card{
+        display:flex;
+flex-direction:row-reverse ;
+        width:100%;
+        max-width:900px;
+       
+        
+
+    }    
+.stats-card__banner{
+   flex:5;
+}
+.stats-card__details{
+    flex:6;
+    text-align: left;
+    padding:30px ;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+   
+
+}
+
+.stats-card__banner__image{
+    background-image:url("./images/image-header-desktop.jpg");
+    height:100%;
+    
+    width:auto;
+    border-top-right-radius:0;
+   border-top-left-radius:0;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.overlay--pink{
+    
+    border-top-right-radius:0;
+   border-top-left-radius:0;
+   border-top-right-radius:10px;
+   border-bottom-right-radius:10px;
+
+}
+.stats-card__details__stats{
+   
+    display:flex;
+    flex-direction: row;
+    
+  
+
+}
+
+.stats-card__details__stats__item{
+    flex:1;
+}
+
+.stats-card__details__title{
+    margin-top:0;
+}
+
+.stats-card__details__stats__item{
+    text-align:left;
+}
+}
